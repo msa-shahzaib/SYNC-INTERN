@@ -1,0 +1,65 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Assalam alikum"],
+         "responses": ["Hello, thanks for visiting.", "Good to see you again.", "Hi there, how can I help?",
+           "Wa alikum assalam"]
+        },
+        {"tag": "openinghours",
+         "patterns": ["Are you open today?", "When do you open?", "What are your delivery hours?"],
+         "responses": ["We're open every day from 12am-9pm", "Our hours are 12am-9pm every day",
+           "Our delivery hours are 12am-9pm"]
+        },
+        {"tag": "menu",
+         "patterns": ["What's there in the menu?", "What's your speciality?", "What can I order today?"],
+         "responses": ["We have:\n Club sandwiches $2\n Pizzas $10\n Burgers $6\n Fries 80 cents\n Soft drinks $1",
+           "We offer a variety of fast food items which include:\n Pizzas $10\n Burgers $6\n Club sandwiches $2\n Fries 80 cents\n Soft drinks $1"]
+        },
+        {"tag": "clubsandwich",
+         "patterns": ["I would like to have club sandwiches", "I want to order club sandwich", "club sandwiches"],
+         "responses": ["Ok, how many?", "Great choice!, How many would you like to have?"]
+        },
+        {"tag": "pizza",
+         "patterns": ["I would like to have pizza", "pizza", "can you get pizza for me?"],
+         "responses": ["Brilliant choice!, How many?", "How many would you like to order?", "How many?"]
+        },
+        {"tag": "burger",
+         "patterns": ["I would like to order burger", "burger please", "can you get burger for me?"],
+         "responses": ["Good choice!, how many?", "How many would you like to order?", "How many?"]
+        },
+        {"tag": "fries",
+         "patterns": ["fries would be great", "fries", "can you get fries for me?"],
+         "responses": ["Fries are universal snack!, how many?", "How many?"]
+        },
+        {"tag": "softdrink",
+         "patterns": ["a drink also", "soft drink", "get me some drink"],
+         "responses": ["How many?", "Got it, how many?"]
+        },
+        {"tag": "quantity",
+         "patterns": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "one", "two", "three", "four", "five", "six",
+           "seven", "eight", "nine", "ten"],
+         "responses": ["Ok great!, anything else?", "Got it, anything else you would like to have?"]
+        },
+        {"tag": "no",
+         "patterns": ["No thats it!", "no", "thats all"],
+         "responses": ["Your order is on the way!, you will receive the bill on delivery",
+           "Your order is completed!, you will receive the bill on delivery"]
+        },
+        {"tag": "payment",
+         "patterns": ["Do you take credit cards?", "What are the payment methods?", "Are you cash only?", "How do I pay?"],
+         "responses": ["Payment methods are:\n Credit cards\n Cash on delivery\n Digital payment",
+           "We accept most major credit cards.", "You can pay through credit cards, digital payment or cash on delivery."]
+        },
+        {"tag": "delivery",
+         "patterns": ["How long would it take?", "When will I receive my food?", "When can I have my order?"],
+         "responses": ["An hour sir!", "You will receive your food within 45 minutes", "delivery will take 30 minutes!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Ok thanks", "Thank you", "That's helpful", "Great!"],
+         "responses": ["Happy to help :)", "Any time!", "My pleasure", "I am glad I could help you."]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["Thanks for visiting.", "Have a nice day.", "Bye! Come back again soon."]
+        }
+   ]
+}
